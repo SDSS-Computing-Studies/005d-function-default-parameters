@@ -17,11 +17,11 @@ def sample(a, b=4, c="Test"):
   # the output string
   
   output = ""
-  for i in range(0,4):
+  for i in range(0,b):
     output = output + c
   return output
 
-sample(3)
+print(sample(3))
 sample(2,5,"cat")
 sample(5,3)
 
