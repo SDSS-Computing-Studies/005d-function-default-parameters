@@ -11,7 +11,7 @@ def multiply(x=2):
   # by default, the value for x is 2
   # this function does not need to return a value, but we 
   # include a return None statement to show it has no output
-    print(x*2)
+    print(x*5)
     return None
     
     
